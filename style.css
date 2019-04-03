@@ -1,0 +1,50 @@
+* {
+    text-align: right;
+}
+
+body { 
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/1200px-Hopetoun_falls.jpg);
+    background-size: cover; /* Fitting Size For Background Image*/
+    
+}
+
+h2 {
+    color: gold;
+}
+h2 + p:hover {
+    color: #1dcf53 ;
+    text-align: center; 
+    border: 5px solid rgb(170, 124, 500);
+    cursor: pointer;
+}
+
+p {
+    color: azure !important;
+    text-align: center;
+}
+
+p {
+    color: gold;
+    text-align: center;
+}
+ 
+li {
+    list-style: none; /*Don't have point of first line on HOME ,About...*/
+   display: inline-block;
+}
+
+.webtext:first-child{
+    border: 5px dashed green;
+}
+
+.action {
+    color: red;
+}
+
+#div1 {
+    background: chocolate;
+}
+
+#div2 {
+    background: tan;
+}
