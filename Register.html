@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+    <head>
+        <title> Register </title>
+    </head>
+    <body>
+        <header>
+            <h1>Register</h1>
+        </header>
+        <nav>
+            <a href="www.google.com"></a>
+        </nav>
+
+        <footer>
+            <p>Website Footer</p>
+        </footer>
+        <!-- Use GET, not POST -->
+        <div>
+        <form method="GET" action="action.php">
+                <a href= "#" >Home</a> <br>
+                <a href= "index.html"> Index </a>
+        </form><br>
+         
+        <form>
+            <span>
+            First name: </span> <br>
+            <input type="text" name="firstname" value=""><br>
+            Last name:<br>
+            <input type="text" name="lastname" value=""><br>
+            Email:<br>
+            <input type="email" name="Email" required>  <br>
+            Password:<br>
+            <input type="password" name="password" min="5">  <br>
+            Birthday:<br>
+            <input type="date" name="birthday"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+            Pets:<br>
+            <input type="checkbox" name="cat">Cat<br>
+            <input type="checkbox" name="dog">Dog<br>
+            Cars:<br>
+            <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="TOYOTA">TOYOTA</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+            </select><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    </body>
+</html>
+
+
